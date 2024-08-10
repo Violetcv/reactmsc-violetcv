@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      colors: {
-        "custom-color": "#012147",
-      },
       height: {
         "80vh": "80vh",
         "custom-400": "400px",
@@ -16,9 +13,11 @@ module.exports = {
       },
       screens: {
         "850px": { max: "850px" },
-        "max-900": { max: "900px" }, // Custom breakpoint for max-width 900px
+        "max-900": { max: "900px" }, // Custom breakpoint for max-width 900px---made for media queries
         "1000px": { max: "1000px" },
         "1200px": { max: "1200px" },
+        "750px": { max: "750px" },
+        "650px": { max: "650px" },
         "550px": { max: "550px" },
         "450px": { max: "450px" },
       },
