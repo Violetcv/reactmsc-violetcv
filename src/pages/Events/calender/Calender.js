@@ -57,7 +57,7 @@ const Calender = ({ eventid }) => {
   };
 
   return (
-    <div className="mx-12 h-custom-400 bg-[#012147] text-white text-center rounded-md p-8 -mt-12 850px:mx-0 850px:mt-[-18vh]">
+    <div className="mx-12 h-custom-400 bg-[#012147] text-white text-center rounded-md p-8 -mt-12 450px:mx-0 450px:mt-[-18vh] 450px:w-[100%] 550px:mx-0 550px:mt-[-18vh] 550px:w-[100%] 650px:mx-0 650px:mt-[-18vh] 650px:w-[95vh] 750px:mx-0 750px:mt-[-18vh] 750px:w-[103vh] 850px:mx-4 850px:mt-[-18vh] 850:w-[120vh] max-900:mx-0 max-900:mt-[-5vh] max-900:w-[130vh] 1000px:mx-8 1000px:mt-[-5vh] 1000px:w-[140vh]">
       <Calendar
         localizer={localizer}
         events={allEvents}
